@@ -50,7 +50,7 @@ return [
 //             'Password' => '4I1JC486PWOXR34G$'
             
             'driver' => 'mysql',
-            'url' => 'laravelapiravvy-server.mysql.database.azure.com',
+            'url' => '',
             'host' => 'laravelapiravvy-server.mysql.database.azure.com',
             'port' => '3306',
             'database' => 'laravelapiravvy-database',
