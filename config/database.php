@@ -12,7 +12,7 @@ return [
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for all database work. Of course
     | you may use many connections at once using the Database library.
-    |
+    |laravelapiravvy-server.mysql.database.azure.com
     */
 
     'default' => env('DB_CONNECTION', 'mysql'),
@@ -50,8 +50,8 @@ return [
 //             'Password' => '4I1JC486PWOXR34G$'
             
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL', ''),
-            'host' => env('DB_HOST', 'laravelapiravvy-server.mysql.database.azure.com'),
+            'url' => env('DATABASE_URL', 'laravelapiravvy-server.mysql.database.azure.com'),
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'laravelapiravvy-database'),
             'username' => env('DB_USERNAME', 'upooeaawfx'),
