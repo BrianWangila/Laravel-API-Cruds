@@ -50,8 +50,8 @@ return [
 //             'Password' => '4I1JC486PWOXR34G$'
             
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL', 'laravelapiravvy-server.mysql.database.azure.com'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'url' => env('DATABASE_URL', ''),
+            'host' => env('DB_HOST', 'laravelapiravvy-server.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'laravelapiravvy-database'),
             'username' => env('DB_USERNAME', 'upooeaawfx'),
