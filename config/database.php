@@ -50,9 +50,9 @@ return [
 //             'Password' => '4I1JC486PWOXR34G$'
             
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL', 'laravelapiravvy-server.mysql.database.azure.com'),
+            'url' => 'laravelapiravvy-server.mysql.database.azure.com'
             'host' => 'laravelapiravvy-server.mysql.database.azure.com',
-            'port' => env('DB_PORT', '3306'),
+            'port' => '3306',
             'database' => 'laravelapiravvy-database',
             'username' => 'upooeaawfx',
             'password' => '4I1JC486PWOXR34G$',
@@ -64,7 +64,7 @@ return [
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
-                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA', '/home/site/wwwroot/ssl/DigiCertGlobalRootCA.crt.pem'),
+                PDO::MYSQL_ATTR_SSL_CA => '/home/site/wwwroot/ssl/DigiCertGlobalRootCA.crt.pem',
             ]) : [],
         ],
 
